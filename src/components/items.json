@@ -1,0 +1,36 @@
+
+[
+    {
+      "name": "Spaghetti Carbonara",
+      "image": "https://www.allrecipes.com/thmb/Vg2cRidr2zcYhWGvPD8M18xM_WY=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/11973-spaghetti-carbonara-ii-DDMFS-4x3-6edea51e421e4457ac0c3269f3be5157.jpg",
+      "ingredients": [
+        { "name": "Spaghetti", "quantity": "200g", "price": "$1.50" },
+        { "name": "Bacon", "quantity": "150g", "price": "$2.00" },
+        { "name": "Eggs", "quantity": "2", "price": "$0.50" },
+        { "name": "Parmesan Cheese", "quantity": "50g", "price": "$1.75" },
+        { "name": "Black Pepper", "quantity": "to taste", "price": "$0.25" }
+      ]
+    },
+    {
+      "name": "Chicken Alfredo",
+      "image": "https://iwashyoudry.com/wp-content/uploads/2022/08/Chicken-Alfredo-Low-Res-21.jpg",
+      "ingredients": [
+        { "name": "Fettuccine", "quantity": "250g", "price": "$2.00" },
+        { "name": "Chicken Breast", "quantity": "300g", "price": "$3.50" },
+        { "name": "Heavy Cream", "quantity": "200ml", "price": "$1.75" },
+        { "name": "Garlic", "quantity": "2 cloves", "price": "$0.30" },
+        { "name": "Parmesan Cheese", "quantity": "50g", "price": "$1.75" }
+      ]
+    },
+    {
+      "name": "Caprese Salad",
+      "image": "https://i2.wp.com/www.downshiftology.com/wp-content/uploads/2019/07/Caprese-Salad-main-1.jpg",
+      "ingredients": [
+        { "name": "Tomatoes", "quantity": "3", "price": "$1.00" },
+        { "name": "Fresh Mozzarella", "quantity": "200g", "price": "$2.50" },
+        { "name": "Basil Leaves", "quantity": "1 bunch", "price": "$1.00" },
+        { "name": "Balsamic Vinegar", "quantity": "50ml", "price": "$1.25" },
+        { "name": "Extra Virgin Olive Oil", "quantity": "50ml", "price": "$1.00" }
+      ]
+    }
+  ]
