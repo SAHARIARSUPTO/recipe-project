@@ -46,8 +46,15 @@
 .recipe-card ul li {
   margin-bottom: 5px;
 }
-.hello-text{
-  align-items: center;
-  text-align: center;
+
+.hello-text {
+  align-items: flex-start; /* Align text to the left corner */
+  text-align: left; /* Text alignment to the left */
   margin-bottom: 20px;
+}
+
+@media (max-width: 768px) {
+  .hello-text {
+    font-size: 1.5rem; /* Adjusted font size for smaller devices */
+  }
 }

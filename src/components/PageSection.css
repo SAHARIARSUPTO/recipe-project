@@ -1,0 +1,65 @@
+/* PageSection.css */
+
+.section {
+  margin-top: 70px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.col {
+  flex: 1 1 50%; /* Displaying two columns on larger screens */
+}
+
+.typography,
+.gallery {
+  width: 100%;
+}
+
+/* Adjusting layout for smaller devices */
+@media (max-width: 768px) {
+  .col {
+    flex: 1 1 100%; /* Displaying one column on smaller screens */
+    margin-bottom: 20px; /* Adding margin between columns */
+  }
+}
+
+/* Styles for typography */
+.typography {
+  padding: 20px;
+}
+
+.title {
+  font-size: 2rem;
+}
+
+.info {
+  font-size: 1rem;
+}
+
+/* Styles for gallery */
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between; /* Adding space between images */
+}
+
+/* Adjusting image size */
+.CustomImage {
+  width: calc(33.33% - 10px); /* Adjust image size for three images per row */
+  margin-bottom: 20px; /* Adding margin between images */
+}
+
+@media (max-width: 768px) {
+  .CustomImage {
+    width: calc(
+      50% - 10px
+    ); /* Adjust image size for two images per row on smaller screens */
+  }
+}
+.not-found {
+  color: red;
+  font-size: xx-large;
+  margin-bottom: 100px;
+  align-items: center;
+  text-align: center;
+}

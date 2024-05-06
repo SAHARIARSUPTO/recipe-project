@@ -1,31 +1,25 @@
 import React, { useState } from "react";
-import Sidebar from "./Sidebar";
 
 import { faHome, faList, faCog } from "@fortawesome/free-solid-svg-icons";
 
 function Navbar() {
-  const [showSidebar, setShowSidebar] = useState(false);
   const links = [
     {
       name: "Home",
       path: "/",
-      icon: faHome
+      icon: faHome,
     },
     {
       name: "Recipes",
       path: "/recipes",
-      icon: faList
+      icon: faList,
     },
     {
       name: "Settings",
       path: "/settings",
-      icon: faCog
-    }
+      icon: faCog,
+    },
   ];
-
-  function closeSidebar() {
-    setShowSidebar(false);
-  }
 
   return (
     <>
@@ -34,22 +28,18 @@ function Navbar() {
           Cuisine Canvas
         </a>
         <div className="nav-links">
-          {links.map(link => (
+          {links.map((link) => (
             <a href="#!" key={link.name}>
               {link.name}
             </a>
           ))}
         </div>
-        <div
-          onClick={() => setShowSidebar(true)}
-          className={showSidebar ? "sidebar-btn active" : "sidebar-btn"}
-        >
+        <div>
           <div className="bar"></div>
           <div className="bar"></div>
           <div className="bar"></div>
         </div>
       </div>
-      {showSidebar && <Sidebar links={links} close={closeSidebar} />}
     </>
   );
 }
